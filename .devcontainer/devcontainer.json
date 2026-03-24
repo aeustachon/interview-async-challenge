@@ -1,0 +1,16 @@
+{
+  "name": "C# Async Interview Challenge",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit"
+      ],
+      "settings": {
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "postCreateCommand": "dotnet restore"
+}
